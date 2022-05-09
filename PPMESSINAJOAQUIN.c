@@ -40,9 +40,11 @@ int invertir(char cadena[], char cadena2[]);
 int main(){
     char cadena[100], cadena2[100];
 
+
     prinft("Ingrese Una palabra: ");
     scanf("%s", cadena);
-    
+    invertir(cadena, cadena2);
+    printf("La palabra invertida es: %s", cadena2);
     
     
 }
@@ -60,3 +62,4 @@ int invertir(char cadena[], char cadena2[]){
 
 ////////////////////////////////////////////////
 //  ¿Qué relaciones existen entre los conceptos de función, pasaje por valor, pasaje por referencia y tipos de variables?. Desarrolle.
+
